@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu{
+    background-color: #333;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    display: none;
+        transition: opacity 0.3s, transform 0.3s; 
+
+}
+ul{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Estilo para o botão de menu */
+#menuButton {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno: 10px vertical e 20px horizontal */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remova qualquer sublinhado */
+    display: inline-block; /* Botão em linha */
+    font-size: 16px; /* Tamanho do texto */
+    margin: 10px; /* Margem ao redor do botão */
+    cursor: pointer; /* Cursor de pointer ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o hover do botão */
+#menuButton:hover {
+    background-color: #45a049; /* Cor de fundo mais escura ao passar o mouse */
+}
